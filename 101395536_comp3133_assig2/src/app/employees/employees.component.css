@@ -1,0 +1,51 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Table styles */
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.employee-table th, .employee-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.employee-table th {
+    background-color: #343a40; /* Dark background color for table header */
+    color: #ffffff; /* White text color for table header */
+}
+
+/* Button styles */
+.edit-btn, .delete-btn {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+    background-color: #007bff; /* Blue color for edit button */
+    color: #ffffff;
+}
+
+.delete-btn {
+    background-color: #dc3545; /* Red color for delete button */
+    color: #ffffff;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}

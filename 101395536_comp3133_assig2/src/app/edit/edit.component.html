@@ -1,0 +1,31 @@
+<div class="form-container">
+    <h2>Add New Employee</h2>
+    <form id="addEmployeeForm" action="/" method="post">
+      <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" #fname name="firstName" required>
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" #lname  name="lastName" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" #email  name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="salary">Salary</label>
+        <input type="number" id="salary" #salary  name="salary" required>
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <select id="gender" #gender name="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <button type="submit" >Edit Employee</button>
+      </div>
+    </form>
+  </div>

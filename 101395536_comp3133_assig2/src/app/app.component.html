@@ -1,0 +1,22 @@
+<nav class="navbar">
+  <div class="container">
+    <a href="/">
+    <h1 class="navbar-logo">Employee GraphQL Operations</h1>
+  </a>
+    <ul class="navbar-menu">
+     @if(login){
+      <li class="navbar-item"><a href="/add">Add Employee</a></li>
+      <li class="navbar-item"><button (click)="logout()">Logout</button></li>
+     }@else{
+      <li class="navbar-item"><a href="/login">Login</a></li>
+      <li class="navbar-item"><a href="/register">Register</a></li>
+
+     }
+ 
+     
+     
+    </ul>
+  </div>
+</nav>
+
+<router-outlet />

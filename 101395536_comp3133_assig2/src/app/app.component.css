@@ -1,0 +1,68 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation styles */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* White text color */
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar-item {
+    margin-right: 20px;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.navbar-item a:hover {
+    color: #f8f9fa; /* Lighter text color on hover */
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff6347; /* tomato red */
+    color: #fff; /* white */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: #ff473f; /* Darker tomato red on hover */
+}
